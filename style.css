@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url("image.jpg"); 
+  background-size: cover;
+}
+#container {
+  height: 100vh; 
+  display: flex ; 
+  align-items: center;
+  justify-content: center; 
+}
+#clock {
+  font-family : monospace;
+  font-size : 3rem; 
+  color: white; 
+  backdrop-filter: blur(500px);
+  width: 100%;
+  text-align: center; 
